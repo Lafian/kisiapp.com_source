@@ -1,0 +1,254 @@
+/* _content/Shared/Component1.razor.rz.scp.css */
+.my-component[b-u9jgibabwm] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}
+/* _content/Shared/Components/Camera.razor.rz.scp.css */
+.camera-container[b-7js8iygife] {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom-left-icons[b-7js8iygife] {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon-button[b-7js8iygife] {
+    background-color: #292929;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    .icon-button i[b-7js8iygife] {
+        font-size: 24px;
+        color: #ffffff;
+    }
+
+    .icon-button:hover[b-7js8iygife] {
+        background-color: #3700b3;
+    }
+
+    .icon-button:active[b-7js8iygife] {
+        transform: scale(0.98);
+    }
+
+/* �������� ����������� ����������� input */
+.file-input-button input[type="file"][b-7js8iygife] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+/* _content/Shared/Components/Homes.razor.rz.scp.css */
+.nav-menu[b-356eezlbpn] {
+    position: fixed;
+    bottom: 0;
+    border-radius: 5px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #343434;
+    padding: 10px 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.krug[b-356eezlbpn] {
+    background-color: #343434;
+    z-index: 10;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15px;
+}
+
+.krug2[b-356eezlbpn] {
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+}
+/* _content/Shared/Components/Login.razor.rz.scp.css */
+/* General styling for dark theme */
+body[b-m8fngm755k] {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Container for the forms */
+.container[b-m8fngm755k] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+/* Switcher styling */
+.switcher[b-m8fngm755k] {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.switch-button[b-m8fngm755k] {
+    padding: 0.8rem 2rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #292929;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    .switch-button.active[b-m8fngm755k] {
+        background-color: #6200ee;
+    }
+
+    .switch-button:hover[b-m8fngm755k] {
+        background-color: #3700b3;
+    }
+
+    .switch-button:active[b-m8fngm755k] {
+        transform: scale(0.98);
+    }
+
+/* Carousel container */
+.carousel[b-m8fngm755k] {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Carousel inner container */
+.carousel-inner[b-m8fngm755k] {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.35s ease-in-out;
+}
+
+/* Form container inside carousel */
+.form-container[b-m8fngm755k] {
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* Form container content */
+    .form-container h1[b-m8fngm755k] {
+        color:white;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+/* Form group styling */
+.form-group[b-m8fngm755k] {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+label[b-m8fngm755k] {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #b3b3b3;
+}
+
+input[b-m8fngm755k] {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #292929;
+    color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+    /* Focused input */
+    input:focus[b-m8fngm755k] {
+        outline: none;
+        box-shadow: 0 0 4px #6200ee;
+    }
+
+/* Button styling */
+.btn[b-m8fngm755k] {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #6200ee;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    /* Hover and active states for buttons */
+    .btn:hover[b-m8fngm755k] {
+        background-color: #3700b3;
+    }
+
+    .btn:active[b-m8fngm755k] {
+        transform: scale(0.98);
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel[b-m8fngm755k] {
+        width: 300px;
+        height: 400px;
+    }
+
+    .switcher[b-m8fngm755k] {
+        flex-direction: column;
+    }
+
+    .switch-button[b-m8fngm755k] {
+        margin-bottom: 0.5rem;
+    }
+}

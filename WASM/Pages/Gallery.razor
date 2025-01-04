@@ -1,0 +1,99 @@
+﻿@page "/gallery"
+@inject HttpClient HttpClient
+@inject IJSRuntime JSRuntime
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+@using System.Text.Json
+@using System.Text
+
+<h3>Gallery</h3>
+
+@if (images == null)
+{
+    <p>Loading...</p>
+}
+else if (images.Count == 0)
+{
+    <p>No images found.</p>
+}
+else
+{
+    <div class="gallery">
+        @foreach (var imageUrl in images)
+        {
+            <div class="gallery-item">
+                <img src="@imageUrl" alt="Gallery image" />
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<string> images;
+
+    private class ImageResponse
+    {
+        public List<ImageResult> Result { get; set; }
+        public string Status { get; set; }
+        public string Time { get; set; }
+    }
+
+    private class ImageResult
+    {
+        public List<string> Images { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var token = await LocalStorage.GetItemAsync<string>("authToken");
+            if (string.IsNullOrEmpty(token))
+            {
+                // Handle case when token is not available
+                return;
+            }
+
+            HttpClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "8634e982777842fdb305d0d6b87c45ff");
+
+            var content = new StringContent(JsonSerializer.Serialize(new { token }), Encoding.UTF8, "application/json");
+            var response = await HttpClient.PostAsync("https://kisiappapi.azure-api.net/getimages", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Response content: {responseContent}");
+
+                var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    };
+
+                var imageResponse = JsonSerializer.Deserialize<List<ImageResponse>>(responseContent, options);
+                if (imageResponse != null && imageResponse.Count > 0 &&
+                    imageResponse[0].Result != null && imageResponse[0].Result.Count > 0 &&
+                    imageResponse[0].Result[0].Images != null && imageResponse[0].Result[0].Images.Count > 0)
+                {
+                    images = imageResponse[0].Result[0].Images;
+                    Console.WriteLine($"Images count: {images.Count}");
+                }
+                else
+                {
+                    Console.WriteLine("No images found in the response");
+                    images = new List<string>();
+                }
+            }
+            else
+            {
+                // Handle error response
+                Console.WriteLine($"Error: {response.StatusCode}");
+                images = new List<string>();
+            }
+        }
+        catch (Exception ex)
+        {
+            // Handle exceptions
+            Console.WriteLine($"Exception: {ex.Message}");
+            images = new List<string>();
+        }
+    }
+}

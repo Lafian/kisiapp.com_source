@@ -1,0 +1,2480 @@
+{
+  "Version": 1,
+  "Hash": "/C9igRDoXiljj5ihucWGfBy02Q85MgrYjoQOCGMTLJY=",
+  "Source": "Shared",
+  "BasePath": "_content/Shared",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Shared\\wwwroot",
+      "Source": "Shared",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\",
+      "BasePath": "_content/Shared",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Camera.razor.js",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Components/Camera.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6tcf675cz",
+      "Integrity": "QOqtia/ZbYX0D2mmHrDUrOZtCtxqAGUXw+U0lY/UKgE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "Components\\Camera.razor.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Home.razor.js",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Components/Home.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf9rag1f0z",
+      "Integrity": "fj0hjVuYFOGKmz7gPa6SjnZN9GXH3qEj9KqAStcSkvM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "Components\\Home.razor.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\0i9fc3uz18-mf9rag1f0z.gz",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Components/Home.razor.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Home.razor.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sruashbik3",
+      "Integrity": "uJXPJjZ7rrSm3TL6upCh+nDjj61zCVIgOXmvZLTGtB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Home.razor.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\b9rscy40oj-jo2qmvc5qb.gz",
+      "SourceId": "Shared",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Shared#[.{fingerprint=jo2qmvc5qb}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g6oxfdlglg",
+      "Integrity": "qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\oxakir7d7d-o6tcf675cz.gz",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Components/Camera.razor.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Camera.razor.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z0611j78eq",
+      "Integrity": "Pe5ZXDoNjoOBubL47tPdZu/glaI8DwP+lLDE+XwOTyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Camera.razor.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\0i9fc3uz18-mf9rag1f0z.br",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Components/Home.razor.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Home.razor.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "wbcoesk7zx",
+      "Integrity": "lO21ACkefe7HvL9a4SilakdyvZDgIkrFkRPbJjvndEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Home.razor.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\b9rscy40oj-jo2qmvc5qb.br",
+      "SourceId": "Shared",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Shared#[.{fingerprint=jo2qmvc5qb}]?.styles.css.br",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "voy61pqz8p",
+      "Integrity": "4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\oxakir7d7d-o6tcf675cz.br",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Components/Camera.razor.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Camera.razor.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "vux88ux61i",
+      "Integrity": "Zy2S+hbajht3Jj8Qo29XNeflwAFQP+YQ2MvYxu5fxKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Camera.razor.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\qj2ajts2vm-jo2qmvc5qb.br",
+      "SourceId": "Shared",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Shared#[.{fingerprint=jo2qmvc5qb}]!.bundle.scp.css.br",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "voy61pqz8p",
+      "Integrity": "4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\w0w7ivnjcc-6pqz8bsss0.br",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "exampleJsInterop#[.{fingerprint=6pqz8bsss0}]?.js.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\exampleJsInterop.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "9xki0hnz5y",
+      "Integrity": "bU7cdb7onJgDveQX/MmadzAU2yUuYXne1jvwHwmsxT8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\qj2ajts2vm-jo2qmvc5qb.gz",
+      "SourceId": "Shared",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Shared#[.{fingerprint=jo2qmvc5qb}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g6oxfdlglg",
+      "Integrity": "qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\w0w7ivnjcc-6pqz8bsss0.gz",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "exampleJsInterop#[.{fingerprint=6pqz8bsss0}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\exampleJsInterop.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vrr7rs2wfg",
+      "Integrity": "W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css",
+      "SourceId": "Shared",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Shared#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "jo2qmvc5qb",
+      "Integrity": "E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css",
+      "SourceId": "Shared",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "Shared#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "jo2qmvc5qb",
+      "Integrity": "E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\background.png",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2rx4ajns0",
+      "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "Shared",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\",
+      "BasePath": "_content/Shared",
+      "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqz8bsss0",
+      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "background.png",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "background.x2rx4ajns0.png",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2rx4ajns0"
+        },
+        {
+          "Name": "label",
+          "Value": "background.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "Components/Camera.razor.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Camera.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QOqtia/ZbYX0D2mmHrDUrOZtCtxqAGUXw+U0lY/UKgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 00:21:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QOqtia/ZbYX0D2mmHrDUrOZtCtxqAGUXw+U0lY/UKgE="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Components/Camera.razor.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\oxakir7d7d-o6tcf675cz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001314060447"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "760"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pe5ZXDoNjoOBubL47tPdZu/glaI8DwP+lLDE+XwOTyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 00:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QOqtia/ZbYX0D2mmHrDUrOZtCtxqAGUXw+U0lY/UKgE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QOqtia/ZbYX0D2mmHrDUrOZtCtxqAGUXw+U0lY/UKgE="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Components/Camera.razor.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\oxakir7d7d-o6tcf675cz.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001618122977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "617"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zy2S+hbajht3Jj8Qo29XNeflwAFQP+YQ2MvYxu5fxKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 00:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QOqtia/ZbYX0D2mmHrDUrOZtCtxqAGUXw+U0lY/UKgE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QOqtia/ZbYX0D2mmHrDUrOZtCtxqAGUXw+U0lY/UKgE="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Components/Camera.razor.js.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\oxakir7d7d-o6tcf675cz.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zy2S+hbajht3Jj8Qo29XNeflwAFQP+YQ2MvYxu5fxKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 00:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zy2S+hbajht3Jj8Qo29XNeflwAFQP+YQ2MvYxu5fxKY="
+        }
+      ]
+    },
+    {
+      "Route": "Components/Camera.razor.js.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\oxakir7d7d-o6tcf675cz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pe5ZXDoNjoOBubL47tPdZu/glaI8DwP+lLDE+XwOTyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 00:21:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pe5ZXDoNjoOBubL47tPdZu/glaI8DwP+lLDE+XwOTyM="
+        }
+      ]
+    },
+    {
+      "Route": "Components/Home.razor.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\Components\\Home.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fj0hjVuYFOGKmz7gPa6SjnZN9GXH3qEj9KqAStcSkvM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:59:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fj0hjVuYFOGKmz7gPa6SjnZN9GXH3qEj9KqAStcSkvM="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Components/Home.razor.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\0i9fc3uz18-mf9rag1f0z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004385964912"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uJXPJjZ7rrSm3TL6upCh+nDjj61zCVIgOXmvZLTGtB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fj0hjVuYFOGKmz7gPa6SjnZN9GXH3qEj9KqAStcSkvM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fj0hjVuYFOGKmz7gPa6SjnZN9GXH3qEj9KqAStcSkvM="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Components/Home.razor.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\0i9fc3uz18-mf9rag1f0z.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.005524861878"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lO21ACkefe7HvL9a4SilakdyvZDgIkrFkRPbJjvndEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fj0hjVuYFOGKmz7gPa6SjnZN9GXH3qEj9KqAStcSkvM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fj0hjVuYFOGKmz7gPa6SjnZN9GXH3qEj9KqAStcSkvM="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "Components/Home.razor.js.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\0i9fc3uz18-mf9rag1f0z.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lO21ACkefe7HvL9a4SilakdyvZDgIkrFkRPbJjvndEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lO21ACkefe7HvL9a4SilakdyvZDgIkrFkRPbJjvndEw="
+        }
+      ]
+    },
+    {
+      "Route": "Components/Home.razor.js.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\0i9fc3uz18-mf9rag1f0z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uJXPJjZ7rrSm3TL6upCh+nDjj61zCVIgOXmvZLTGtB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uJXPJjZ7rrSm3TL6upCh+nDjj61zCVIgOXmvZLTGtB8="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\w0w7ivnjcc-6pqz8bsss0.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.007246376812"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bU7cdb7onJgDveQX/MmadzAU2yUuYXne1jvwHwmsxT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\w0w7ivnjcc-6pqz8bsss0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005208333333"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\w0w7ivnjcc-6pqz8bsss0.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bU7cdb7onJgDveQX/MmadzAU2yUuYXne1jvwHwmsxT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bU7cdb7onJgDveQX/MmadzAU2yUuYXne1jvwHwmsxT8="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\w0w7ivnjcc-6pqz8bsss0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\w0w7ivnjcc-6pqz8bsss0.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.007246376812"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bU7cdb7onJgDveQX/MmadzAU2yUuYXne1jvwHwmsxT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\w0w7ivnjcc-6pqz8bsss0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005208333333"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\w0w7ivnjcc-6pqz8bsss0.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bU7cdb7onJgDveQX/MmadzAU2yUuYXne1jvwHwmsxT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bU7cdb7onJgDveQX/MmadzAU2yUuYXne1jvwHwmsxT8="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\w0w7ivnjcc-6pqz8bsss0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 05:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.bundle.scp.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\qj2ajts2vm-jo2qmvc5qb.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000891265597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.bundle.scp.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\qj2ajts2vm-jo2qmvc5qb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000739098300"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.bundle.scp.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.bundle.scp.css.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\qj2ajts2vm-jo2qmvc5qb.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.bundle.scp.css.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\qj2ajts2vm-jo2qmvc5qb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.bundle.scp.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\qj2ajts2vm-jo2qmvc5qb.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000891265597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.bundle.scp.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\qj2ajts2vm-jo2qmvc5qb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000739098300"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.bundle.scp.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\Shared.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.bundle.scp.css.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\qj2ajts2vm-jo2qmvc5qb.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.bundle.scp.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.bundle.scp.css.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\qj2ajts2vm-jo2qmvc5qb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.styles.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\b9rscy40oj-jo2qmvc5qb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000739098300"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.styles.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\b9rscy40oj-jo2qmvc5qb.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000891265597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.styles.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.styles.css.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\b9rscy40oj-jo2qmvc5qb.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.styles.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.jo2qmvc5qb.styles.css.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\b9rscy40oj-jo2qmvc5qb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jo2qmvc5qb"
+        },
+        {
+          "Name": "label",
+          "Value": "Shared.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.styles.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\b9rscy40oj-jo2qmvc5qb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000739098300"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.styles.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\b9rscy40oj-jo2qmvc5qb.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000891265597"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.styles.css",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\scopedcss\\bundle\\Shared.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0KSIQZQZeYEs4C2y/rAZnA44BQ/1dNpJ+9NHUsbbJw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.styles.css.br",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\publish\\b9rscy40oj-jo2qmvc5qb.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4QWRWFzHt1nkftMQfPbold+1ZEBjcG68rmrmW04vBGw="
+        }
+      ]
+    },
+    {
+      "Route": "Shared.styles.css.gz",
+      "AssetFile": "D:\\kisiapp\\kisiapp.com\\Shared\\obj\\Release\\net9.0\\compressed\\b9rscy40oj-jo2qmvc5qb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 06:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qAv4J+eeCN5EkpxYYONW/0yj8Y68rb2T99yTaIqgjgY="
+        }
+      ]
+    }
+  ]
+}

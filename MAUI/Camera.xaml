@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+			 xmlns:local="clr-namespace:MAUI"
+             x:Class="MAUI.Camera">
+
+    <Grid>
+
+        <toolkit:CameraView x:Name="cameraView"
+                           MediaCaptured="cameraView_MediaCaptured"
+                           HorizontalOptions="Fill"
+                           VerticalOptions="Fill" />
+
+
+        <Grid x:Name="errorOverlay" 
+              BackgroundColor="#80000000"
+              IsVisible="False">
+            <VerticalStackLayout HorizontalOptions="Center" 
+                               VerticalOptions="Center"
+                               Spacing="20">
+                <Label x:Name="errorMessage"
+                       TextColor="White"
+                       FontSize="18"
+                       HorizontalTextAlignment="Center" />
+                <Button Text="Repet"
+                        Clicked="OnRetryClicked"
+                        WidthRequest="200" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+
+</ContentPage>

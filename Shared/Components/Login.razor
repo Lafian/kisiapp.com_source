@@ -1,0 +1,76 @@
+@page "/login-register"
+
+
+<div class="container">
+    <div class="switcher">
+        <button class="switch-button @(isLoginActive ? "active" : "")" @onclick="ShowLogin">
+            Login
+        </button>
+        <button class="switch-button @(isLoginActive ? "" : "active")" @onclick="ShowRegister">
+            Register
+        </button>
+    </div>
+
+    <div class="carousel">
+        <div class="carousel-inner" style="transform: @(isLoginActive ? "translateX(0%)" : "translateX(-50%)")">
+            <div class="form-container">
+                <h1>Login</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input id="login-email" type="email" placeholder="Enter your email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input id="login-password" type="password" placeholder="Enter your password" />
+                    </div>
+                    <button class="btn" type="button" @onclick="OnLoginClicked">Login</button>
+                </form>
+            </div>
+
+            <div class="form-container">
+                <h1>Register</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="register-email">Email</label>
+                        <input id="register-email" type="email" placeholder="Enter your email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <input id="register-password" type="password" placeholder="Create a password" />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input id="confirm-password" type="password" placeholder="Confirm your password" />
+                    </div>
+                    <button class="btn" type="button" @onclick="OnRegisterClicked">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private bool isLoginActive = true; // Tracks whether Login form is active
+
+    private void ShowLogin()
+    {
+        isLoginActive = true;
+    }
+
+    private void ShowRegister()
+    {
+        isLoginActive = false;
+    }
+
+    private void OnLoginClicked()
+    {
+        // Placeholder for login functionality
+        Console.WriteLine("Login button clicked");
+    }
+
+    private void OnRegisterClicked()
+    {
+        
+    }
+}

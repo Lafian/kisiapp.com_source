@@ -1,0 +1,152 @@
+/* General styling for dark theme */
+body[b-m8fngm755k] {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Container for the forms */
+.container[b-m8fngm755k] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+/* Switcher styling */
+.switcher[b-m8fngm755k] {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.switch-button[b-m8fngm755k] {
+    padding: 0.8rem 2rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #292929;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    .switch-button.active[b-m8fngm755k] {
+        background-color: #6200ee;
+    }
+
+    .switch-button:hover[b-m8fngm755k] {
+        background-color: #3700b3;
+    }
+
+    .switch-button:active[b-m8fngm755k] {
+        transform: scale(0.98);
+    }
+
+/* Carousel container */
+.carousel[b-m8fngm755k] {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Carousel inner container */
+.carousel-inner[b-m8fngm755k] {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.35s ease-in-out;
+}
+
+/* Form container inside carousel */
+.form-container[b-m8fngm755k] {
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* Form container content */
+    .form-container h1[b-m8fngm755k] {
+        color:white;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+/* Form group styling */
+.form-group[b-m8fngm755k] {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+label[b-m8fngm755k] {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #b3b3b3;
+}
+
+input[b-m8fngm755k] {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #292929;
+    color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+    /* Focused input */
+    input:focus[b-m8fngm755k] {
+        outline: none;
+        box-shadow: 0 0 4px #6200ee;
+    }
+
+/* Button styling */
+.btn[b-m8fngm755k] {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #6200ee;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+    /* Hover and active states for buttons */
+    .btn:hover[b-m8fngm755k] {
+        background-color: #3700b3;
+    }
+
+    .btn:active[b-m8fngm755k] {
+        transform: scale(0.98);
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel[b-m8fngm755k] {
+        width: 300px;
+        height: 400px;
+    }
+
+    .switcher[b-m8fngm755k] {
+        flex-direction: column;
+    }
+
+    .switch-button[b-m8fngm755k] {
+        margin-bottom: 0.5rem;
+    }
+}

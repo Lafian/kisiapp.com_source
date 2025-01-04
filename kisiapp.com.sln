@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUI", "MAUI\MAUI.csproj", "{6116F107-DC47-4FCA-B734-CEEE736B7A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WASM", "WASM\WASM.csproj", "{5CA6BD79-5DB7-43DC-A504-D0FA4AFA88C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{62F28008-BB66-4000-8339-9BE48CBCA87D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6116F107-DC47-4FCA-B734-CEEE736B7A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6116F107-DC47-4FCA-B734-CEEE736B7A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6116F107-DC47-4FCA-B734-CEEE736B7A4A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6116F107-DC47-4FCA-B734-CEEE736B7A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6116F107-DC47-4FCA-B734-CEEE736B7A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA6BD79-5DB7-43DC-A504-D0FA4AFA88C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA6BD79-5DB7-43DC-A504-D0FA4AFA88C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA6BD79-5DB7-43DC-A504-D0FA4AFA88C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA6BD79-5DB7-43DC-A504-D0FA4AFA88C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F28008-BB66-4000-8339-9BE48CBCA87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F28008-BB66-4000-8339-9BE48CBCA87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F28008-BB66-4000-8339-9BE48CBCA87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F28008-BB66-4000-8339-9BE48CBCA87D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

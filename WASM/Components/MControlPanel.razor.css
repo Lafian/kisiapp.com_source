@@ -1,0 +1,46 @@
+﻿.mcontrolpanel {
+    position: fixed;
+    bottom: 1vh;
+    left: 2%;
+    width: 96%;
+    height: 8vh; /* Увеличена высота для размещения текста */
+    background-color: #242424;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Равномерное распределение кнопок */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .mcontrolpanel .button {
+        display: flex;
+        flex-direction: column; /* Размещаем эмодзи над текстом */
+        align-items: center;
+        justify-content: center;
+        background-color: transparent; /* Прозрачный фон */
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        width: 80px; /* Фиксированная ширина кнопок */
+        height: 80px; /* Фиксированная высота кнопок */
+        transition: transform 0.2s ease;
+    }
+
+        .mcontrolpanel .button:hover {
+            transform: scale(1.1); /* Легкое увеличение при наведении */
+        }
+
+        .mcontrolpanel .button:active {
+            transform: scale(0.95); /* Легкое уменьшение при нажатии */
+        }
+
+    .mcontrolpanel .emoji {
+        font-size: 24px; /* Размер эмодзи */
+        margin-bottom: 5px; /* Отступ между эмодзи и текстом */
+    }
+
+    .mcontrolpanel .label {
+        font-size: 14px; /* Размер текста под эмодзи */
+        color: #fff; /* Белый цвет текста */
+    }

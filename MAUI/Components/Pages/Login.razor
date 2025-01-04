@@ -1,0 +1,56 @@
+﻿@page "/"
+@using MAUI.Services
+@inject IPasskeyService PasskeyService
+
+<h1>Passkey Demo</h1>
+
+<button @onclick="CreatePasskey">Create Passkey</button>
+<button @onclick="SignInWithPasskey">Sign In with Passkey</button>
+
+<p>@message</p>
+
+@code {
+    private string message;
+
+    private async Task CreatePasskey()
+    {
+        if (await PasskeyService.IsPasskeyAvailableAsync())
+        {
+            var result = await PasskeyService.CreatePasskeyAsync("user@example.com", "https://example.com");
+            if (result != null)
+            {
+                message = "Passkey created successfully";
+                // Отправьте result на ваш backend
+            }
+            else
+            {
+                message = "Failed to create passkey";
+            }
+        }
+        else
+        {
+            message = "Passkey not available on this device";
+        }
+    }
+
+    private async Task SignInWithPasskey()
+    {
+        if (await PasskeyService.IsPasskeyAvailableAsync())
+        {
+            var result = await PasskeyService.SignInWithPasskeyAsync("https://example.com");
+            if (result != null)
+            {
+                message = "Signed in successfully";
+                // Отправьте result на ваш backend
+            }
+            else
+            {
+                message = "Failed to sign in";
+            }
+        }
+        else
+        {
+            message = "Passkey not available on this device";
+        }
+    }
+}

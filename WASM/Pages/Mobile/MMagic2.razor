@@ -1,0 +1,64 @@
+﻿
+@inject IJSRuntime JS
+
+
+<div class="main2">
+    @switch (widget)
+    {
+        case 0:
+            <MCamera OnTaskSubmit="HandleTask"
+            OnPhotoCaptured="HandlePhotoCaptured" />
+            break;
+        case 1:
+            <MPreview ImageData="@capturedImage" />
+            break;
+    }
+
+    <div class="mcontrolpanel">
+        <button class="button" >
+            <span class="emoji">📷</span>
+            <span class="label">Photo</span>
+        </button>
+        <div class="split"></div>
+        <button class="button">
+            <input class="inputmc" type="file" id="fileInput" accept="image/*" @onchange="OnFileSelected" />
+            <span class="emoji">🖼</span>
+            <span class="label">Gallery</span>
+        </button>
+        <button class="button">
+            <span class="emoji">❤</span>
+            <span class="label">Preview</span>
+        </button>
+    </div>
+</div>
+
+
+@code {
+
+    //сделать в превю разницу между реал фото и генер/
+    //превю на фото
+    //доставка
+    //оплата
+    private int widget = 0;
+    private string? capturedImage;
+
+    private async Task HandleTask()
+    {
+        widget = 1;
+    }
+
+    private void HandlePhotoCaptured(string photoBase64)
+    {
+        // Сохраняем Base64 изображение для отображения в CanvasComponent
+        capturedImage = photoBase64;
+    }
+
+    private async Task OnFileSelected(ChangeEventArgs e)
+    {
+        capturedImage = await JS.InvokeAsync<string>("processSelectedFile", "fileInput");
+        await Task.Delay(1000);
+        widget = 1;
+    }
+
+
+}

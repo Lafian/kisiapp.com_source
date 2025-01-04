@@ -1,0 +1,63 @@
+@page "/camera-preview"
+@inject IJSRuntime JS
+
+<div class="camera-container">
+    <!-- Иконки в левом нижнем углу -->
+    <div class="bottom-left-icons">
+        <button class="icon-button" @onclick="ToggleCamera">
+            <i class="fas fa-camera"></i>
+        </button>
+
+        <!-- Стилизованная кнопка с input -->
+        <label class="icon-button file-input-button">
+            <i class="fas fa-plus"></i>
+            <input type="file" id="fileInput" accept="image/*" @onchange="OnFileSelected" />
+        </label>
+    </div>
+
+    <!-- Превью камеры -->
+    @if (isCameraActive)
+    {
+        <div class="camera-preview">
+            <video id="cameraVideo" autoplay playsinline></video>
+            <button class="capture-button" @onclick="CapturePhoto"></button>
+        </div>
+    }
+
+    <!-- Отображение снимка -->
+    @if (!string.IsNullOrEmpty(capturedImage))
+    {
+        <div class="captured-photo-container">
+            <img src="@capturedImage" alt="Captured Photo" />
+        </div>
+    }
+</div>
+
+@code {
+    private bool isCameraActive = false;
+    private string? capturedImage;
+
+    private async Task ToggleCamera()
+    {
+        isCameraActive = !isCameraActive;
+        if (isCameraActive)
+        {
+            await JS.InvokeVoidAsync("startCamera");
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("stopCamera");
+        }
+    }
+
+    private async Task CapturePhoto()
+    {
+        capturedImage = await JS.InvokeAsync<string>("capturePhoto");
+        isCameraActive = false;
+    }
+
+    private async Task OnFileSelected(ChangeEventArgs e)
+    {
+        capturedImage = await JS.InvokeAsync<string>("processSelectedFile", "fileInput");
+    }
+}

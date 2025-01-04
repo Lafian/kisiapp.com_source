@@ -1,0 +1,125 @@
+﻿/* Общий контейнер с фиксированным размером */
+.login-container {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    background-size: cover; /* Масштабирование изображения */
+    border-radius: 16px; /* Скругленные углы контейнера */
+    overflow: hidden; /* Убираем лишнее */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Тень для объема */
+}
+
+/* Левая часть (с акрилом) */
+.left-pane {
+    flex: 3; /* 60% ширины */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Акриловый блок */
+.acrylic {
+    height: 100%;
+    -webkit-backdrop-filter: blur(20px) saturate(150%); /* Для Safari */
+    width: 90%;
+    max-width: 300px;
+    color: #fff; /* Цвет текста */
+}
+
+/* Внутри акриловой формы */
+.form-container1 {
+    text-align: center;
+    height: 100%;
+    width: 100%
+}
+
+    .form-container1 h2 {
+        margin-bottom: 20px;
+    }
+
+    .form-container1 .form-group {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+        .form-container1 .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-container1 .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            outline: none;
+        }
+
+    .form-container1 button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: #0078d7;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .form-container1 button:hover {
+            background-color: #005a9e;
+        }
+
+/* Правая часть (без акрила) */
+.right-pane {
+    background: url(/image/preview.png) no-repeat center center;
+    filter: saturate(150%);
+    flex: 2; /* 40% ширины */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+    .right-pane h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .right-pane p {
+        font-size: 1rem;
+    }
+
+@media (prefers-color-scheme: dark) {
+    * {
+        color: #ffffff;
+    }
+
+    .login {
+        background: #121212;
+    }
+
+    .login-container {
+        background: #121212;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    * {
+        color: #121212;
+    }
+
+    .login {
+        background: #fbfbfb;
+    }
+
+    .login-container {
+        background: #ffffff;
+    }
+}

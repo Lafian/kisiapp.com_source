@@ -1,0 +1,30 @@
+﻿@page "/login2"
+@inject IJSRuntime JSRuntime
+
+<div class="content">
+    @if (IsMobile)
+    {
+        <MLogin></MLogin>
+    }
+    else
+    {
+        <DLogin></DLogin>
+    }
+</div>
+
+
+@code {
+    private bool IsMobile = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Определяем текущее устройство (мобильное или десктопное)
+        IsMobile = await JSRuntime.InvokeAsync<bool>("isMobile");
+    }
+
+    private void SwitchMode()
+    {
+        // Переключаем режим
+        IsMobile = !IsMobile;
+    }
+}

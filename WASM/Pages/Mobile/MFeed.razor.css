@@ -1,0 +1,10 @@
+﻿body {
+}
+
+.mfeed {
+    width: 100%;
+    height: 98vh;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+}

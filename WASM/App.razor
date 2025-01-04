@@ -1,0 +1,15 @@
+﻿<CascadingAuthenticationState>
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+                <NotAuthorized>
+                    <h3>Доступ запрещён</h3>
+                    <p>Вы не авторизованы для просмотра этой страницы.</p>
+                </NotAuthorized>
+            </AuthorizeRouteView>
+        </Found>
+        <NotFound>
+            <h3>Страница не найдена</h3>
+        </NotFound>
+    </Router>
+</CascadingAuthenticationState>

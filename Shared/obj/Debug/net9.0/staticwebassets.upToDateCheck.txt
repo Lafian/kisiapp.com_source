@@ -1,0 +1,7 @@
+Components\Camera.razor.js
+Components\Homes.razor.js
+D:\kisiapp\kisiapp.com\Shared\Components\Homes.razor.js
+D:\kisiapp\kisiapp.com\Shared\Components\Camera.razor.js
+D:\kisiapp\kisiapp.com\Shared\wwwroot\exampleJsInterop.js
+wwwroot\background.png
+wwwroot\exampleJsInterop.js

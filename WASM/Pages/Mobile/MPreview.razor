@@ -1,0 +1,17 @@
+﻿@inject IJSRuntime JS
+
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+
+@code {
+    // Параметр для получения Base64-данных изображения
+    [Parameter]
+    public string? ImageData { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(1000);
+        await JS.InvokeVoidAsync("preview");
+    }
+}

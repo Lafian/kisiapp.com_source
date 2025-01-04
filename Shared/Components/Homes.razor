@@ -1,0 +1,16 @@
+@page "/mainframe"
+@inject IJSRuntime JS
+
+<video id="video" width="400" autoplay></video>
+<div class="nav-menu">
+    <div class="krug">
+        <button class="krug2" onclick="@StartCamera">Click</button>
+    </div>
+</div>
+
+@code {
+    private async Task StartCamera()
+    {
+        await JS.InvokeVoidAsync("startCamera");
+    }
+}

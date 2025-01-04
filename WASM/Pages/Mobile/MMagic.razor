@@ -1,0 +1,64 @@
+﻿
+@using System.Text.Json
+@using System.Text
+@inject IJSRuntime JS
+@inject HttpClient HttpClient
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+
+<div class="camera-preview">
+    <video class="camera" id="cameraVideo" autoplay playsinline></video>
+</div>
+
+@if (string.IsNullOrEmpty(capturedImage))
+{
+    <div class="mcontrolpanel">
+        <button class="button">
+            <span class="emoji">◀</span>
+            <span class="label">Back</span>
+        </button>
+        <button class="button" @onclick="CapturePhoto">
+            <span class="emoji">⚪</span>
+            <span class="label">Capture</span>
+        </button>
+        <button class="button">
+            <span class="emoji">⬜</span>
+            <span class="label">Gallery</span>
+        </button>
+    </div>
+}else
+{
+    <div class="mcontrolpanel">
+        <button class="button">
+            <h1>denied</h1>
+        </button>
+        <button class="button">
+            <h1>succses</h1>
+        </button>
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(capturedImage))
+{
+    <div class="captured-photo-container">
+        <img class="previewimage" src="@capturedImage" alt="Captured Photo" />
+    </div>
+}
+
+@code 
+{
+
+    private bool isCameraActive = false;
+    private string? capturedImage;
+
+    protected override async Task OnInitializedAsync()
+    {  
+       await JS.InvokeVoidAsync("startCamera");
+    }
+
+    private async Task CapturePhoto()
+    {
+        capturedImage = await JS.InvokeAsync<string>("capturePhoto");
+        isCameraActive = true;
+    }
+
+}

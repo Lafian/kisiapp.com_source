@@ -1,0 +1,150 @@
+@page "/login-register"
+@inject CustomAuthenticationService AuthService
+@inject NavigationManager Navigation
+
+<div class="container">
+    <div class="switcher">
+        <button class="switch-button @(isLoginActive ? "active" : "")" @onclick="ShowLogin">
+            Login
+        </button>
+        <button class="switch-button @(isLoginActive ? "" : "active")" @onclick="ShowRegister">
+            Register
+        </button>
+    </div>
+
+    <div class="carousel">
+        <div class="carousel-inner" style="transform: @(isLoginActive ? "translateX(0%)" : "translateX(-50%)")">
+            <!-- Login Form -->
+            <div class="form-container">
+                <h1>Login</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input id="login-email" type="email" @bind="loginEmail" placeholder="Enter your email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input id="login-password" type="password" @bind="loginPassword" placeholder="Enter your password" />
+                    </div>
+                    <button class="btn" type="button" @onclick="OnLoginClicked">Login</button>
+                </form>
+                @if (!string.IsNullOrEmpty(loginMessage))
+                {
+                    <p class="message">@loginMessage</p>
+                }
+            </div>
+
+            <!-- Register Form -->
+            <div class="form-container">
+                <h1>Register</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="register-email">Email</label>
+                        <input id="register-email" type="email" @bind="registerEmail" placeholder="Enter your email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <input id="register-password" type="password" @bind="registerPassword" placeholder="Create a password" />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input id="confirm-password" type="password" @bind="confirmPassword" placeholder="Confirm your password" />
+                    </div>
+                    <button class="btn" type="button" @onclick="OnRegisterClicked">Register</button>
+                </form>
+                @if (!string.IsNullOrEmpty(registerMessage))
+                {
+                    <p class="message">@registerMessage</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    // Tracks whether Login form is active
+    private bool isLoginActive = true;
+
+    // Login form fields
+    private string loginEmail = string.Empty;
+    private string loginPassword = string.Empty;
+    private string loginMessage = string.Empty;
+
+    // Register form fields
+    private string registerEmail = string.Empty;
+    private string registerPassword = string.Empty;
+    private string confirmPassword = string.Empty;
+    private string registerMessage = string.Empty;
+
+    private void ShowLogin()
+    {
+        isLoginActive = true;
+        ClearMessages();
+    }
+
+    private void ShowRegister()
+    {
+        isLoginActive = false;
+        ClearMessages();
+    }
+
+    // Handles the login button click
+    private async Task OnLoginClicked()
+    {
+        loginMessage = string.Empty; // Clear previous messages
+
+        if (string.IsNullOrWhiteSpace(loginEmail) || string.IsNullOrWhiteSpace(loginPassword))
+        {
+            loginMessage = "Email and password are required.";
+            return;
+        }
+
+        var (isSuccess, message) = await AuthService.Login(loginEmail, loginPassword);
+
+        if (isSuccess)
+        {
+            loginMessage = "Login successful!";
+            // Редирект на другую страницу
+            Navigation.NavigateTo("/qwe");
+        }
+        else
+        {
+            loginMessage = "Login failed. Please check your credentials.";
+        }
+    }
+
+    // Handles the register button click
+    private async Task OnRegisterClicked()
+    {
+        registerMessage = string.Empty; // Clear previous messages
+
+        if (string.IsNullOrWhiteSpace(registerEmail) || string.IsNullOrWhiteSpace(registerPassword) || string.IsNullOrWhiteSpace(confirmPassword))
+        {
+            registerMessage = "All fields are required.";
+            return;
+        }
+
+        if (registerPassword != confirmPassword)
+        {
+            registerMessage = "Passwords do not match.";
+            return;
+        }
+
+        var (isSuccess, message) = await AuthService.Register(registerEmail, registerPassword);
+
+        if (isSuccess)
+        {
+            registerMessage = "Registration successful! You can now log in.";
+        }
+        else
+        {
+            registerMessage = $"Registration failed: {message}";
+        }
+    }
+
+    private void ClearMessages()
+    {
+        loginMessage = string.Empty;
+        registerMessage = string.Empty;
+    }
+}

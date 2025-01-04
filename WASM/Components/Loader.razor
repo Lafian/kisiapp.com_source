@@ -1,0 +1,14 @@
+﻿@page "/loader"
+@inject IJSRuntime JS
+
+<canvas id="canvas" width="500" height="500"></canvas>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender) // Выполняется только при первом рендеринге
+        {
+            await JS.InvokeVoidAsync("rivestart", "canvas", "https://cdn.rive.app/animations/vehicles.riv");
+        }
+    }
+}

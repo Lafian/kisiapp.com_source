@@ -1,0 +1,124 @@
+@page "/camera-preview"
+@using System.Text.Json
+@using System.Text
+@inject IJSRuntime JS
+@inject HttpClient HttpClient
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+
+<div class="camera-container">
+    <!-- Иконки в левом нижнем углу -->
+    <div class="bottom-left-icons">
+        <button class="icon-button" @onclick="ToggleCamera">
+            <i class="fas fa-camera"></i>
+        </button>
+
+        <!-- Стилизованная кнопка с input -->
+        <label class="icon-button file-input-button">
+            <i class="fas fa-plus"></i>
+            <input type="file" id="fileInput" accept="image/*" @onchange="OnFileSelected" />
+        </label>
+    </div>
+
+    <!-- Превью камеры -->
+    @if (isCameraActive)
+    {
+        <div class="camera-preview">
+            <video id="cameraVideo" autoplay playsinline></video>
+            <button class="capture-button" @onclick="CapturePhoto"></button>
+        </div>
+    }
+
+    <!-- Отображение снимка -->
+    @if (!string.IsNullOrEmpty(capturedImage))
+    {
+        <div class="captured-photo-container">
+            <img src="@capturedImage" alt="Captured Photo" />
+            <button class="send-button" @onclick="SendImage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    }
+</div>
+
+@code {
+    private bool isCameraActive = false;
+    private string? capturedImage;
+
+    private async Task ToggleCamera()
+    {
+        isCameraActive = !isCameraActive;
+        if (isCameraActive)
+        {
+            await JS.InvokeVoidAsync("startCamera");
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("stopCamera");
+        }
+    }
+
+    private async Task CapturePhoto()
+    {
+        capturedImage = await JS.InvokeAsync<string>("capturePhoto");
+        isCameraActive = false;
+    }
+
+    private async Task OnFileSelected(ChangeEventArgs e)
+    {
+        capturedImage = await JS.InvokeAsync<string>("processSelectedFile", "fileInput");
+    }
+
+    private async Task SendImage()
+    {
+        if (string.IsNullOrEmpty(capturedImage))
+        {
+            return;
+        }
+
+        // Получаем base64 часть из data URL
+        var base64Image = capturedImage.Split(',')[1];
+
+        // Создаем HttpClient с нужным заголовком
+        using var httpClient = new HttpClient();
+        httpClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "8634e982777842fdb305d0d6b87c45ff");
+
+        // Отправляем первый запрос
+        var content = new StringContent(JsonSerializer.Serialize(new { image = base64Image }), Encoding.UTF8, "application/json");
+        Console.WriteLine(content);
+        var response = await httpClient.PostAsync("https://kisiappapi.azure-api.net/run", content);
+
+        if (response.IsSuccessStatusCode)
+        {
+            var result = await response.Content.ReadAsStringAsync();
+            var idResponse = JsonSerializer.Deserialize<IdResponse>(result);
+
+            // Получаем JWT токен из localStorage
+            var token = await LocalStorage.GetItemAsync<string>("authToken");
+
+            // Отправляем второй запрос
+            var secondContent = new StringContent(JsonSerializer.Serialize(new { id = idResponse.id, token }), Encoding.UTF8, "application/json");
+            var secondResponse = await httpClient.PostAsync("https://kisiappapi.azure-api.net/addimage", secondContent);
+
+            if (secondResponse.IsSuccessStatusCode)
+            {
+                // Обработка успешного ответа
+                Console.WriteLine("Image successfully sent and processed");
+            }
+            else
+            {
+                // Обработка ошибки
+                Console.WriteLine($"Error processing image: {secondResponse.StatusCode}");
+            }
+        }
+        else
+        {
+            // Обработка ошибки
+            Console.WriteLine($"Error sending image: {response.StatusCode}");
+        }
+    }
+
+    private class IdResponse
+    {
+        public string id { get; set; }
+    }
+}
